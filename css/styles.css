@@ -80,12 +80,18 @@ address {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
+    margin: 0 auto;
     
     outline: 2px solid tomato;
 
 }
 
 /* -----Хедер --- */
+
+header {
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -139,6 +145,7 @@ address {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
+    min-width: 696px;
 }
 .hero-button {
     background-color: var(--color-blue);
