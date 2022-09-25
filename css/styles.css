@@ -37,8 +37,10 @@ address {
 .page {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+
     background-color: var(--background-primary);
     color: var(--color-primary);
+
     letter-spacing: 0.03em;
 }
 
@@ -86,6 +88,9 @@ address {
 
 }
 
+img {
+    display: block;
+}
 /* -----Хедер --- */
 
 header {
@@ -107,7 +112,31 @@ header {
     
 } */
 
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list {
+    display: flex;
+    margin-left: auto;
+    align-self: flex-start;
+}
+
+.nav-list .list:not(:last-child) {
+    margin-right: 50px;
+}
+
+.nav-list .list:last-child {
+    margin-right: 0;
+}
+
 .nav-link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -118,6 +147,14 @@ header {
 .nav-link:hover,
 .nav-link:focus {
     color: var(--color-blue);
+}
+
+.contacts {
+    display: flex;
+}
+
+.contacts .contacts-list + .contacts-list {
+    margin-left: 50px;
 }
 
 .contacts .contacts-link {
@@ -132,11 +169,22 @@ header {
     color: var(--color-blue);
 }
 
+
+
+
 /* -------Секція хіро------*/
 
 .hero {
-    background-color: var(--background-elements);
+    background-color: var(--background-elements); 
 }
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+  }
+
 .hero-title {
     color: var(--color-white);
     text-transform: uppercase;
@@ -145,7 +193,9 @@ header {
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-align: center;
-    min-width: 696px;
+    max-width: 696px;
+    display: block;
+    margin-bottom: 30px;
 }
 .hero-button {
     background-color: var(--color-blue);
@@ -154,6 +204,9 @@ header {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+    margin-bottom: 200px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* -----Секція advantages-------*/
