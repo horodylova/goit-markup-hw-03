@@ -85,7 +85,6 @@ address {
     margin: 0 auto;
     
     outline: 2px solid tomato;
-
 }
 
 img {
@@ -120,9 +119,9 @@ header {
 
 .nav-list {
     display: flex;
-    margin-left: auto;
-    align-self: flex-start;
+    justify-content: flex-start;
 }
+
 
 .nav-list .list:not(:last-child) {
     margin-right: 50px;
@@ -303,12 +302,38 @@ header {
 
 /* ----Секція Portfolio ------ */
 
-/* .projects {
+.container .buttons-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
 }
-.projects-list {
+
+.buttons-list .list:not(:last-child) {
+    margin-right: 8px;
 }
-.projects-item {
-} */
+
+.buttons-list .list:last-child {
+    margin-right: 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.projects .projects-list {
+    width: 370px;
+    border: 1px;
+    margin-right: 30px;
+}
+
+.projects .projects-list:nth-child(3n) {
+    margin-right: 0;
+}
+
+/* .projects-item {
+}  */
 .projects-title {
     color: var(--color-grey);
     font-weight: 700;
@@ -320,4 +345,9 @@ header {
 .projects-about {
     font-size: 16px;
     line-height: 1.6;
+}
+
+.projects .projects-description {
+    border: 1px;
+    border-color: #EEEEEE;
 }
