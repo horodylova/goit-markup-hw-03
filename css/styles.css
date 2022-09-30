@@ -92,10 +92,9 @@ img {
 }
 /* -----Хедер --- */
 
-header {
-    padding-top: 24px;
-    padding-bottom: 25px;
-}
+/* header {
+    
+} */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -115,15 +114,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* padding-top: 24px;
+    padding-bottom: 25px; */
 }
 
 .nav-list {
     display: flex;
-    justify-content: flex-start;
-}
-
-
-.nav-list .list:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -169,18 +165,14 @@ header {
 }
 
 
-
-
 /* -------Секція хіро------*/
 
 .hero {
     background-color: var(--background-elements); 
+    text-align: center;
 }
 
 .hero-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     padding: 200px;
   }
 
@@ -193,7 +185,6 @@ header {
     letter-spacing: 0.06em;
     text-align: center;
     max-width: 696px;
-    display: block;
     margin-bottom: 30px;
 }
 .hero-button {
@@ -203,9 +194,6 @@ header {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    margin-bottom: 200px;
-    display: block;
-    margin: 0 auto;
 }
 
 /* -----Секція advantages-------*/
@@ -226,16 +214,37 @@ header {
      line-height: 1.71;
 }
 
-/* -------Секція Duties------- */
+.advantages-parts {
+    display: flex;
+}
+
+.advantages .advantages-list {
+    width: calc((100% - 90px)) / 4);
+}
+
+-------Секція Duties------- */
 
 /* .duties {
+
 } */
 
-/* .duties-list {
+.duties-title {
+    margin-bottom: 50px;
+} 
 
+.duties .duties-list {
+display: flex;
+/* justify-content: space-between; */
+margin-right: 30px;
+padding-bottom: 94px;
 }
+
+.duties .duties-list:last-child {
+margin-right: 0;
+}
+
 .duties-examples {
-} */
+}
 
 /* -----Секція Team --------*/
 
@@ -293,6 +302,7 @@ header {
     line-height: 1.62;
     color: var(--color-grey);
     background-color: var(--background-second);
+    text-align: center;
 }
 
 .button:hover,
@@ -303,19 +313,18 @@ header {
 /* ----Секція Portfolio ------ */
 
 .container .buttons-list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin-bottom: 50px;
+
+    
 }
 
-.buttons-list .list:not(:last-child) {
+/* .buttons-list .list:not(:last-child) {
     margin-right: 8px;
 }
 
 .buttons-list .list:last-child {
     margin-right: 0;
-}
+} */
 
 .projects {
     display: flex;
@@ -323,13 +332,18 @@ header {
 } 
 
 .projects .projects-list {
-    width: 370px;
+    width: calc((100% - 60px)) / 3) 
     border: 1px;
     margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 .projects .projects-list:nth-child(3n) {
     margin-right: 0;
+}
+
+.projects .projects-list:nth-last-child(-n+3) {
+    margin-bottom: 0;
 }
 
 /* .projects-item {
