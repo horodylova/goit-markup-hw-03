@@ -85,17 +85,13 @@ address {
     padding-left: 15px;
     margin: 0 auto;
     
-    outline: 2px solid tomato;
+    outline: 2px solid aquamarine;
 }
 
 img {
     display: block;
 }
 /* -----Хедер --- */
-
-/* header {
-    
-} */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -162,7 +158,6 @@ img {
 .contacts-link:focus {
     color: var(--color-blue);
 }
-
 
 /* -------Секція хіро------*/
 
@@ -338,7 +333,6 @@ img {
 .projects {
     display: flex;
     flex-wrap: wrap;
-
 } 
 
 .projects .projects-list {
