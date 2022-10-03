@@ -28,6 +28,7 @@ ul {
 
 button {
     cursor: pointer;
+    border-radius: 4px;
 }
 
 address {
@@ -302,6 +303,7 @@ img {
     color: var(--color-grey);
     background-color: var(--background-second);
     text-align: center;
+
 }
 
 .button:hover,
@@ -311,21 +313,28 @@ img {
 
 /* ----Секція Portfolio ------ */
 
-.container .buttons-list {
-    margin-bottom: 50px;
-
-    
+.container-projects {
+    padding: 94px 0;
 }
 
-/* .buttons-list .list:not(:last-child) {
-    margin-right: 8px;
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 8px;å
 }
 
-.buttons-list .list:last-child {
-    margin-right: 0;
-} */
+.button-portfolio {
+    border: 0;
 
-.projects {
+}
+
+.button-portfolio:focus,
+.button-portfolio:hover {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+/* .projects {
     display: flex;
     flex-wrap: wrap;
 } 
@@ -343,10 +352,8 @@ img {
 
 .projects .projects-list:nth-last-child(-n+3) {
     margin-bottom: 0;
-}
+} */
 
-/* .projects-item {
-}  */
 .projects-title {
     color: var(--color-grey);
     font-weight: 700;
