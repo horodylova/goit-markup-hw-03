@@ -85,7 +85,7 @@ address {
     padding-left: 15px;
     margin: 0 auto;
     
-    outline: 2px solid aquamarine;
+    /* outline: 2px solid aquamarine; */
 }
 
 img {
@@ -178,6 +178,9 @@ img {
     letter-spacing: 0.06em;
 
     max-width: 696px; 
+
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
 }
 
