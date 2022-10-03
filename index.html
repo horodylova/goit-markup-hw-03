@@ -23,20 +23,25 @@
   <body class="page">
     <header class="header">
       <div class="container main-nav">
-        <a href="" class="link logo"
-          ><span class="logo-decorate">Web</span>Studio</a>
-        <p></p>
-        <nav class="nav">
-          <ul class="nav-list">
-            <li class="current list">
-              <a href="" class="nav-link link">Студія</a>
-            </li>
-            <li class="list">
-              <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
-            </li>
-            <li class="list"><a href="" class="nav-link link">Контакти</a></li>
-          </ul>
-        </nav>
+        <div class="container-nav-logo">
+          <a href="" class="link logo"
+            ><span class="logo-decorate">Web</span>Studio</a
+          >
+          <p></p>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="current list">
+                <a href="" class="nav-link link">Студія</a>
+              </li>
+              <li class="list">
+                <a href="./portfolio.html" class="nav-link link">Портфоліо</a>
+              </li>
+              <li class="list">
+                <a href="" class="nav-link link">Контакти</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
         <ul class="contacts">
           <li class="list contacts-list">
             <a class="link contacts-link" href="mailto:info@devstudio.com"
@@ -63,35 +68,34 @@
       <section class="advantages">
         <div class="container">
           <h2 class="visually-hidden">Здібності команди</h2>
-          <ul>
-              <li class="advantages-list list">
-                <p class="advantages-title">Увага до деталей</p>
-                <p class="advantages-note">
-                  Ідейні міркування, і навіть початок повсякденної роботи з
-                  формування позиції.
-                </p>
-              </li>
-              <li class="advantages-list list">
-                <p class="advantages-title">Пунктуальність</p>
-                <p class="advantages-note">
-                  Завдання організації, особливо рамки і місце навчання кадрів
-                  тягне у себе.
-                </p>
-              </li>
-              <li class="advantages-list list">
-                <p class="advantages-title">Планування</p>
-                <p class="advantages-note">
-                  Так само консультація з широким активом значною мірою
-                  зумовлює.
-                </p>
-              </li>
-              <li class="advantages-list list">
-                <p class="advantages-title">Сучасні технології</p>
-                <p class="advantages-note">
-                  Значимість цих проблем настільки очевидна, що реалізація
-                  планових завдань.
-                </p>
-              </li>
+          <ul class="container-advantages">
+            <li class="advantages-list list">
+              <p class="advantages-title">Увага до деталей</p>
+              <p class="advantages-note">
+                Ідейні міркування, і навіть початок повсякденної роботи з
+                формування позиції.
+              </p>
+            </li>
+            <li class="advantages-list list">
+              <p class="advantages-title">Пунктуальність</p>
+              <p class="advantages-note">
+                Завдання організації, особливо рамки і місце навчання кадрів
+                тягне у себе.
+              </p>
+            </li>
+            <li class="advantages-list list">
+              <p class="advantages-title">Планування</p>
+              <p class="advantages-note">
+                Так само консультація з широким активом значною мірою зумовлює.
+              </p>
+            </li>
+            <li class="advantages-list list">
+              <p class="advantages-title">Сучасні технології</p>
+              <p class="advantages-note">
+                Значимість цих проблем настільки очевидна, що реалізація
+                планових завдань.
+              </p>
+            </li>
           </ul>
         </div>
       </section>
@@ -120,49 +124,50 @@
         </div>
       </section>
       <section class="team">
-        <h2 class="team-title section-title">Наша команда</h2>
-        <ul class="team-list">
-          <li class="team-icon list">
-            <img
-              src="./img/igor.jpg"
-              width="270"
-              alt="Ігор Дем'яненко фото"
-              class="team-photo"
-            />
-            <h3 class="team-name">Ігор Дем'яненко</h3>
-            <p class="team-role">Product Designer</p>
-          </li>
-          <li class="team-icon list">
-            <img
-              src="./img/olga.jpg"
-              width="270"
-              alt="Ольга Рєпіна фото"
-              class="team-photo"
-            />
-            <h3 class="team-name">Ольга Рєпіна</h3>
-            <p class="team-role">Frontend Developer</p>
-          </li>
-          <li class="team-icon list">
-            <img
-              src="./img/mykola.jpg"
-              width="270"
-              alt="Микола Тарасов фото"
-              class="team-photo"
-            />
-            <h3 class="team-name">Микола Тарасов</h3>
-            <p class="team-role">Marketing</p>
-          </li>
-          <li class="team-icon list">
-            <img
-              src="./img/michail.jpg"
-              width="270"
-              alt="Михайло Єрмаков фото"
-              class="team-photo"
-            />
-            <h3 class="team-name">Михайло Єрмаков</h3>
-            <p class="team-role">UI Designer</p>
-          </li>
-        </ul>
+        <div class="container container-team">
+          <h2 class="team-title section-title">Наша команда</h2>
+          <ul class="team-list">
+            <li class="team-icon list">
+              <img src="./img/igor.jpg"
+                width="270"
+                alt="Ігор Дем'яненко фото"
+                class="team-photo"
+              />
+              <h3 class="team-name">Ігор Дем'яненко</h3>
+              <p class="team-role">Product Designer</p>
+            </li>
+            <li class="team-icon list">
+              <img
+                src="./img/olga.jpg"
+                width="270"
+                alt="Ольга Рєпіна фото"
+                class="team-photo"
+              />
+              <h3 class="team-name">Ольга Рєпіна</h3>
+              <p class="team-role">Frontend Developer</p>
+            </li>
+            <li class="team-icon list">
+              <img
+                src="./img/mykola.jpg"
+                width="270"
+                alt="Микола Тарасов фото"
+                class="team-photo"
+              />
+              <h3 class="team-name">Микола Тарасов</h3>
+              <p class="team-role">Marketing</p>
+            </li>
+            <li class="team-icon list">
+              <img
+                src="./img/michail.jpg"
+                width="270"
+                alt="Михайло Єрмаков фото"
+                class="team-photo"
+              />
+              <h3 class="team-name">Михайло Єрмаков</h3>
+              <p class="team-role">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="footer">
