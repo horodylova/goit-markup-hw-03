@@ -365,7 +365,8 @@ img {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
+    padding: 6px 22px;
+
 }
 
 
@@ -402,6 +403,8 @@ img {
     font-size:18px;
     line-height: 1.71;
     letter-spacing: 00.06em;
+
+    margin-bottom: 4px;
 }
 
 .projects-about {
@@ -414,4 +417,6 @@ img {
    border: 1px;
    border-style:solid;
    border-color: #EEEEEE;
+
+   margin: 0 auto;
 }
