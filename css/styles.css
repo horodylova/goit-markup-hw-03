@@ -342,9 +342,9 @@ img {
 }
 
 .header-portfolio {
-    border-bottom: 1px;
+    border-color: transparent;
+    border-bottom-color: #ECECEC;
     border-style:solid;
-    border-color: #ECECEC;
 }
 
 .container-projects {
