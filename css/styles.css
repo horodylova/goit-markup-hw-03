@@ -95,7 +95,8 @@ img {
 
 .logo {
     font-family: 'Raleway', sans-serif;
-    line-height: 1;
+    font-size: 26px;
+    line-height: 1.19;
     color: var(--color-black);
 }
 
@@ -149,9 +150,11 @@ img {
 
 .contacts .contacts-link {
     font-size: 14px;
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-primary)
+
 }
 
 .contacts-link:hover,
@@ -207,6 +210,7 @@ img {
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
+
      color: var(--color-grey);
      text-transform: uppercase;
      margin: 0 auto;
@@ -231,6 +235,8 @@ img {
 
 .duties-title {
     margin: 0 0 50px 0;
+
+    color: var(--color-grey);
 } 
 
 .duties .duties-list {
@@ -252,6 +258,7 @@ img {
 
 .team-title {
     margin-bottom: 50px;
+    color: var(--color-grey);
 }
 
 .team .team-name {
@@ -260,9 +267,12 @@ img {
     line-height: 1.18;
     text-align: center;
 }
+
 .team .team-role {
     font-size: 16px;
     text-align: center;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .team-description {
@@ -290,6 +300,7 @@ img {
     font-size: 14px;
     color: var(--color-white);
     line-height: 1.46;
+    letter-spacing: 0.03em;
 }
 
 .address-details {
@@ -329,7 +340,13 @@ img {
 .button-portfolio {
     border: 0;
     background-color: var(--background-second);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
 }
+
 
 .button-portfolio:focus,
 .button-portfolio:hover {
@@ -359,6 +376,7 @@ img {
 
 .projects-title {
     color: var(--color-grey);
+
     font-weight: 700;
     font-size:18px;
     line-height: 1.71;
